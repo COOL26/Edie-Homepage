@@ -1,4 +1,4 @@
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 900px) {
   body {
     padding: 36px;
   }
@@ -36,5 +36,39 @@
   }
   .container-1 h2 {
     font-size: 32px;
+  }
+  .heading-first {
+    margin: 112px 72px 0 138px;
+    width: 20%;
+  }
+  .heading-first h2 {
+    font-size: 28px;
+  }
+  .flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .flexContainer-card {
+    margin-left: 0;
+    width: 350px;
+  }
+  .flexContainer-card.selected {
+    padding: 15px 25px 0 25px;
+  }
+  .flexContainer-card.margin-third {
+    margin-left: 0;
+  }
+  #first {
+    margin-left: 22px;
+    margin-right: 0;
+  }
+  #second {
+    margin: 0;
+  }
+  #third {
+    margin: 0 22px;
   }
 }

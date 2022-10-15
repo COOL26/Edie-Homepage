@@ -1,3 +1,7 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+}
 main h2 {
   font-size: 28px;
   padding: 8px 0;
@@ -19,7 +23,7 @@ main h2 {
 }
 
 .selected {
-  box-shadow: 2px 10px 25px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 32px 5px rgb(0 0 0 / 10%);
   padding: 32px 32px;
   border-radius: 12px;
 }
@@ -59,4 +63,31 @@ main h2 {
   border-radius: 8px;
   color: rgb(128, 127, 127);
   font-weight: bold;
+}
+
+a#first-anchor {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+a#second-anchor {
+  display: block;
+  width: 124px;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+a#third-anchor {
+  display: inline-block;
+  margin-top: 22px;
+}
+
+#first {
+  margin-left: 34px;
+}
+#second {
+  margin-left: 0;
+}
+#third {
+  margin-left: 34px;
 }

@@ -38,8 +38,9 @@
     font-size: 32px;
   }
   .heading-first {
-    margin: 112px 72px 0 138px;
-    width: 20%;
+    margin-left: 8%;
+    margin-top: 12px;
+    width: 280px;
   }
   .heading-first h2 {
     font-size: 28px;
@@ -70,5 +71,51 @@
   }
   #third {
     margin: 0 22px;
+  }
+  div.heading-second {
+    margin-left: 7%;
+    margin-top: 12px;
+    width: 280px;
+  }
+  div.gridContainer {
+    margin-left: 88px;
+  }
+  .gridContainer .img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0;
+  }
+  .gridContainer {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 45% 45%;
+    margin-left: 112px;
+  }
+  main p#see-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    margin-right: 18%;
+    color: rgb(0, 195, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  #see-more img {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    margin-left: 5px;
+  }
+  .special {
+    position: relative;
+    bottom: 12%;
+  }
+  .non-special {
+    position: relative;
+    top: 12%;
   }
 }

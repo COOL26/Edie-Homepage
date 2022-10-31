@@ -1,0 +1,40 @@
+.carlos-tran-quote {
+  margin-top: 112px;
+}
+
+#carlos-para {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+.carlos-tran-bigger-box img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carlos-tran-bigger-box {
+  display: flex;
+  margin-top: 32px;
+}
+
+.carlos-tran-smaller-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+}
+
+.carlos-tran-smaller-box p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.carlos-tran-smaller-box small {
+  margin-top: 22px;
+  font-size: 18px;
+  font-family: sans-serif;
+}

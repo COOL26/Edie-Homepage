@@ -1,0 +1,45 @@
+.meet-the-team {
+  margin-top: 112px;
+}
+
+#meet-the-team-h3 {
+  font-family: sans-serif;
+  color: crimson;
+}
+
+.meet-the-team h2 {
+  line-height: 1.5;
+  max-width: 65%;
+}
+
+#firstImg {
+  width: 55%;
+  height: 40%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+#secImg {
+  width: 90%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 25px;
+}
+
+#thirdImg {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+div.meet-the-team div.bigger-flex-box {
+  display: flex;
+  margin-top: 48px;
+}
+
+div.meet-the-team div.smaller-flex-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}

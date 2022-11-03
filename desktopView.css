@@ -80,11 +80,12 @@
   div.gridContainer {
     margin-left: 88px;
   }
-  .gridContainer .img {
+  div.gridContainer .img {
     display: block;
     width: 80%;
     height: auto;
     margin: 0;
+    font-size: 18px;
   }
   .gridContainer {
     display: grid;
@@ -117,5 +118,44 @@
   .non-special {
     position: relative;
     top: 12%;
+  }
+  div.meet-the-team {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 88px;
+    align-items: center;
+  }
+  div.meet-the-team div.bigger-flex-box {
+    width: 40%;
+  }
+  div.meet-the-team div.info {
+    width: 25%;
+    margin-right: 250px;
+  }
+  div.carlos-tran-quote {
+    margin-left: 88px;
+  }
+  #carlos-tran-img {
+    width: 7%;
+    height: auto;
+  }
+  div.carlos-tran-quote div.carlos-tran-smaller-box p {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  div.carlos-tran-quote div.carlos-tran-smaller-box small {
+    margin-top: 20px;
+  }
+  div.carlos-tran-quote p#carlos-para {
+    font-size: 28px;
+    width: 50%;
+  }
+  .footer-conatainer footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+  }
+  .footer-conatainer footer div.want-us-to-contact-you {
+    width: 500px;
   }
 }

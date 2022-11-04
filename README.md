@@ -39,7 +39,7 @@
 
 
 - You can see my demo at: https://cool26.github.io/Edie-Homepage/
-- Good experience. A lengthy than the other websites I build thus far.
+- Good experience. lengthier than other websites which I build so far.
 - I learned building huge website's front-end by dividing it into various other files.
 - :)
 
